@@ -1,0 +1,29 @@
+{
+	margin: 0;
+	padding: 0
+	
+}
+.imagen1{
+	height: 300px;
+	width: 300px;
+    border:8px solid navy;
+    border-image: 2em;
+}
+.imagen2{
+	height: 300px;
+	width: 300px;
+    border:8px solid navy;
+    border-image: 2em;
+}
+.imagen3{
+	height: 300px;
+	width: 300px;
+    border:8px solid navy;
+    border-image: 2em;
+}
+.imagen4{
+	height: 300px;
+	width: 300px;
+    border:8px solid navy;
+    border-image: 2em;
+}

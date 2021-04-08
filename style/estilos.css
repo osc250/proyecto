@@ -1,0 +1,69 @@
+*{margin:0; padding: 0;}       /*para recetear los margenes*/
+
+header {
+	width: 100%;
+	overflow: hidden;                        /*cabezera*/
+	background: darkblue;
+	margin-bottom: 20px;
+
+}
+.wrapper{
+	width: 100%;
+	max-width: 1000px;                          /*para centrar el contenido*/
+	margin: auto;
+	overflow: hidden;
+}
+header .logo {
+	color:gainsboro;
+	font-size:50px;                        /*para el logo*/
+	line-height: 90px;
+	float: left;
+}
+header nav {
+	float: right;
+	line-height: 90px;
+}
+
+header nav a {                                /*estilo al navegadores */
+	display: inline-block;
+	color:gainsboro;
+	text-decoration:none;
+	padding: 10px 20px;
+	line-height: normal;
+	font-size: 20px;
+	font-weight: bold;
+    border-radius:50px;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition: all 500ms ease;
+}
+header nav a:hover {                          /* darle color al navegador */
+  background-color: red
+
+}
+.header2 {
+	position: fixed;
+	height: 80px;
+}
+.header2 .logo {
+	line-height: 100px;
+	font-size: 30px;
+}
+.header2 .logo {
+	line-height: 90px;
+}
+.contenido{
+	padding-top: 100px;
+}
+.contenido p {
+    margin-bottom: 1em;
+}
+.footer {
+	height: 12em;
+	background-color:darkblue;
+	color: white;
+	line-height: 6em;
+    text-align: center;
+}
+
+
